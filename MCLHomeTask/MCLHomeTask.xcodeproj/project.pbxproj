@@ -28,6 +28,7 @@
 		A96A92D31B402334006B8A98 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A96A92DB1B402389006B8A98 /* MCLObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLObject.c; sourceTree = "<group>"; };
 		A96A92DC1B402389006B8A98 /* MCLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLObject.h; sourceTree = "<group>"; };
+		A96A92DE1B402554006B8A98 /* MCLObjectMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCLObjectMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 			children = (
 				A96A92DB1B402389006B8A98 /* MCLObject.c */,
 				A96A92DC1B402389006B8A98 /* MCLObject.h */,
+				A96A92DE1B402554006B8A98 /* MCLObjectMacros.h */,
 			);
 			path = Object;
 			sourceTree = "<group>";
@@ -249,6 +251,7 @@
 				A96A92D91B402334006B8A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

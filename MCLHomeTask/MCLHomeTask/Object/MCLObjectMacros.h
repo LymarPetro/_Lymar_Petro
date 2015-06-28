@@ -9,5 +9,17 @@
 #ifndef MCLHomeTask_MCLObjectMacros_h
 #define MCLHomeTask_MCLObjectMacros_h
 
+#define IDPAssignSetter(object, ivar, newIvar) \
+if(NULL != object) { \
+object->ivar = newIvar; \
+}
+
+#define IDPRetainSetter(object, ivar, newIvar) \
+if(NULL != object && object->ivar != newIvar) { \
+IDPObjectRetain(newIvar); \
+IDPObjectRelease(object->ivar); \
+object->ivar = newIvar; \
+}
+
 
 #endif
