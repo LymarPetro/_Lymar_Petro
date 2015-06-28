@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A96A92D41B402334006B8A98 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A92D31B402334006B8A98 /* main.c */; };
 		A96A92DD1B402389006B8A98 /* MCLObject.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A92DB1B402389006B8A98 /* MCLObject.c */; };
+		A96A92E31B402C33006B8A98 /* MCLObjectTest.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A92E11B402C33006B8A98 /* MCLObjectTest.c */; };
+		A96A92E71B402D8D006B8A98 /* MCLTestMacros.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A92E51B402D8D006B8A98 /* MCLTestMacros.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,10 @@
 		A96A92DB1B402389006B8A98 /* MCLObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLObject.c; sourceTree = "<group>"; };
 		A96A92DC1B402389006B8A98 /* MCLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLObject.h; sourceTree = "<group>"; };
 		A96A92DE1B402554006B8A98 /* MCLObjectMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCLObjectMacros.h; sourceTree = "<group>"; };
+		A96A92E11B402C33006B8A98 /* MCLObjectTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLObjectTest.c; sourceTree = "<group>"; };
+		A96A92E21B402C33006B8A98 /* MCLObjectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLObjectTest.h; sourceTree = "<group>"; };
+		A96A92E51B402D8D006B8A98 /* MCLTestMacros.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLTestMacros.c; sourceTree = "<group>"; };
+		A96A92E61B402D8D006B8A98 /* MCLTestMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLTestMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 		A96A92D21B402334006B8A98 /* MCLHomeTask */ = {
 			isa = PBXGroup;
 			children = (
+				A96A92E41B402D4A006B8A98 /* Shared */,
+				A96A92DF1B402BE1006B8A98 /* Tests */,
 				A96A92DA1B40233D006B8A98 /* Object */,
 				A96A92D31B402334006B8A98 /* main.c */,
 			);
@@ -75,6 +83,32 @@
 				A96A92DE1B402554006B8A98 /* MCLObjectMacros.h */,
 			);
 			path = Object;
+			sourceTree = "<group>";
+		};
+		A96A92DF1B402BE1006B8A98 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A96A92E01B402BFA006B8A98 /* ObjectTest */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A96A92E01B402BFA006B8A98 /* ObjectTest */ = {
+			isa = PBXGroup;
+			children = (
+				A96A92E11B402C33006B8A98 /* MCLObjectTest.c */,
+				A96A92E21B402C33006B8A98 /* MCLObjectTest.h */,
+			);
+			path = ObjectTest;
+			sourceTree = "<group>";
+		};
+		A96A92E41B402D4A006B8A98 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A96A92E51B402D8D006B8A98 /* MCLTestMacros.c */,
+				A96A92E61B402D8D006B8A98 /* MCLTestMacros.h */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96A92D41B402334006B8A98 /* main.c in Sources */,
+				A96A92E71B402D8D006B8A98 /* MCLTestMacros.c in Sources */,
 				A96A92DD1B402389006B8A98 /* MCLObject.c in Sources */,
+				A96A92E31B402C33006B8A98 /* MCLObjectTest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
