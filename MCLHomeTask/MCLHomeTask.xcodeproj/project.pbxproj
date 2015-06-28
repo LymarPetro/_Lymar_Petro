@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A96A92D41B402334006B8A98 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A92D31B402334006B8A98 /* main.c */; };
+		A96A92DD1B402389006B8A98 /* MCLObject.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A92DB1B402389006B8A98 /* MCLObject.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A96A92D01B402334006B8A98 /* MCLHomeTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MCLHomeTask; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96A92D31B402334006B8A98 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A96A92DB1B402389006B8A98 /* MCLObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MCLObject.c; sourceTree = "<group>"; };
+		A96A92DC1B402389006B8A98 /* MCLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		A96A92D21B402334006B8A98 /* MCLHomeTask */ = {
 			isa = PBXGroup;
 			children = (
+				A96A92DA1B40233D006B8A98 /* Object */,
 				A96A92D31B402334006B8A98 /* main.c */,
 			);
 			path = MCLHomeTask;
+			sourceTree = "<group>";
+		};
+		A96A92DA1B40233D006B8A98 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				A96A92DB1B402389006B8A98 /* MCLObject.c */,
+				A96A92DC1B402389006B8A98 /* MCLObject.h */,
+			);
+			path = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96A92D41B402334006B8A98 /* main.c in Sources */,
+				A96A92DD1B402389006B8A98 /* MCLObject.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
