@@ -11,4 +11,8 @@
 
 #include <stdio.h>
 
+extern
+void MCLObjectBehaviorTest(void);
+
 #endif /* defined(__MCLHomeTask__MCLObjectTest__) */
+

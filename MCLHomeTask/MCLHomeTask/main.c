@@ -8,8 +8,12 @@
 
 #include <stdio.h>
 
+#include "MCLObject.h"
+#include "MCLObjectTest.h"
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    MCLObjectBehaviorTest();
+    
     return 0;
 }

@@ -11,4 +11,20 @@
 
 #include <stdio.h>
 
+extern
+void _IDPPrintTestHeader(void);
+
+extern
+void _IDPPrintTestFooter(void);
+
+#define performTest(testFunction) \
+do { \
+_IDPPrintTestHeader(); \
+printf(" %s started...\n", #testFunction); \
+testFunction(); \
+_IDPPrintTestFooter(); \
+printf(" %s finished.\n", #testFunction); \
+} while(0)
+
 #endif /* defined(__MCLHomeTask__MCLTestMacros__) */
+
