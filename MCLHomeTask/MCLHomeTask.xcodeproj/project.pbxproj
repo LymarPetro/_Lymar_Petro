@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9BC5BC21B401C8B00DA33A0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A9BC5BC11B401C8B00DA33A0 /* main.c */; };
+		A96A92D41B402334006B8A98 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A92D31B402334006B8A98 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A9BC5BBC1B401C8B00DA33A0 /* CopyFiles */ = {
+		A96A92CE1B402334006B8A98 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A9BC5BBE1B401C8B00DA33A0 /* MCLHomeTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MCLHomeTask; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9BC5BC11B401C8B00DA33A0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A96A92D01B402334006B8A98 /* MCLHomeTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MCLHomeTask; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96A92D31B402334006B8A98 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A9BC5BBB1B401C8B00DA33A0 /* Frameworks */ = {
+		A96A92CD1B402334006B8A98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A9BC5BB51B401C8B00DA33A0 = {
+		A96A92C71B402334006B8A98 = {
 			isa = PBXGroup;
 			children = (
-				A9BC5BC01B401C8B00DA33A0 /* MCLHomeTask */,
-				A9BC5BBF1B401C8B00DA33A0 /* Products */,
+				A96A92D21B402334006B8A98 /* MCLHomeTask */,
+				A96A92D11B402334006B8A98 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A9BC5BBF1B401C8B00DA33A0 /* Products */ = {
+		A96A92D11B402334006B8A98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9BC5BBE1B401C8B00DA33A0 /* MCLHomeTask */,
+				A96A92D01B402334006B8A98 /* MCLHomeTask */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9BC5BC01B401C8B00DA33A0 /* MCLHomeTask */ = {
+		A96A92D21B402334006B8A98 /* MCLHomeTask */ = {
 			isa = PBXGroup;
 			children = (
-				A9BC5BC11B401C8B00DA33A0 /* main.c */,
+				A96A92D31B402334006B8A98 /* main.c */,
 			);
 			path = MCLHomeTask;
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9BC5BBD1B401C8B00DA33A0 /* MCLHomeTask */ = {
+		A96A92CF1B402334006B8A98 /* MCLHomeTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9BC5BC51B401C8B00DA33A0 /* Build configuration list for PBXNativeTarget "MCLHomeTask" */;
+			buildConfigurationList = A96A92D71B402334006B8A98 /* Build configuration list for PBXNativeTarget "MCLHomeTask" */;
 			buildPhases = (
-				A9BC5BBA1B401C8B00DA33A0 /* Sources */,
-				A9BC5BBB1B401C8B00DA33A0 /* Frameworks */,
-				A9BC5BBC1B401C8B00DA33A0 /* CopyFiles */,
+				A96A92CC1B402334006B8A98 /* Sources */,
+				A96A92CD1B402334006B8A98 /* Frameworks */,
+				A96A92CE1B402334006B8A98 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +79,53 @@
 			);
 			name = MCLHomeTask;
 			productName = MCLHomeTask;
-			productReference = A9BC5BBE1B401C8B00DA33A0 /* MCLHomeTask */;
+			productReference = A96A92D01B402334006B8A98 /* MCLHomeTask */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A9BC5BB61B401C8B00DA33A0 /* Project object */ = {
+		A96A92C81B402334006B8A98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "MechanicalСrabLab";
 				TargetAttributes = {
-					A9BC5BBD1B401C8B00DA33A0 = {
+					A96A92CF1B402334006B8A98 = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
-			buildConfigurationList = A9BC5BB91B401C8B00DA33A0 /* Build configuration list for PBXProject "MCLHomeTask" */;
+			buildConfigurationList = A96A92CB1B402334006B8A98 /* Build configuration list for PBXProject "MCLHomeTask" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A9BC5BB51B401C8B00DA33A0;
-			productRefGroup = A9BC5BBF1B401C8B00DA33A0 /* Products */;
+			mainGroup = A96A92C71B402334006B8A98;
+			productRefGroup = A96A92D11B402334006B8A98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9BC5BBD1B401C8B00DA33A0 /* MCLHomeTask */,
+				A96A92CF1B402334006B8A98 /* MCLHomeTask */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A9BC5BBA1B401C8B00DA33A0 /* Sources */ = {
+		A96A92CC1B402334006B8A98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9BC5BC21B401C8B00DA33A0 /* main.c in Sources */,
+				A96A92D41B402334006B8A98 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A9BC5BC31B401C8B00DA33A0 /* Debug */ = {
+		A96A92D51B402334006B8A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		A9BC5BC41B401C8B00DA33A0 /* Release */ = {
+		A96A92D61B402334006B8A98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,14 +202,14 @@
 			};
 			name = Release;
 		};
-		A9BC5BC61B401C8B00DA33A0 /* Debug */ = {
+		A96A92D81B402334006B8A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		A9BC5BC71B401C8B00DA33A0 /* Release */ = {
+		A96A92D91B402334006B8A98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -219,24 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9BC5BB91B401C8B00DA33A0 /* Build configuration list for PBXProject "MCLHomeTask" */ = {
+		A96A92CB1B402334006B8A98 /* Build configuration list for PBXProject "MCLHomeTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9BC5BC31B401C8B00DA33A0 /* Debug */,
-				A9BC5BC41B401C8B00DA33A0 /* Release */,
+				A96A92D51B402334006B8A98 /* Debug */,
+				A96A92D61B402334006B8A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9BC5BC51B401C8B00DA33A0 /* Build configuration list for PBXNativeTarget "MCLHomeTask" */ = {
+		A96A92D71B402334006B8A98 /* Build configuration list for PBXNativeTarget "MCLHomeTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9BC5BC61B401C8B00DA33A0 /* Debug */,
-				A9BC5BC71B401C8B00DA33A0 /* Release */,
+				A96A92D81B402334006B8A98 /* Debug */,
+				A96A92D91B402334006B8A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A9BC5BB61B401C8B00DA33A0 /* Project object */;
+	rootObject = A96A92C81B402334006B8A98 /* Project object */;
 }
